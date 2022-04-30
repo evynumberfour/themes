@@ -1,3 +1,105 @@
-select all of the below line and drag it to the bookmarks bar. run it once at a compatible page, then click on a theme to try it on.
+The following are helpful theme importing and exporting bookmarklets. To use a bookmarklet, select all relevent code (from 'javascript:' to the last semicolon) and drag it to your bookmarks bar. Then, run it on a page with compatible links. 
 
-javascript:(function()%7Blet%20theme%20%3D%20%7B%7D%3Blet%20themeLinks%20%3D%20document.getElementsByClassName(%22theme%22)%3Bfunction%20jsonImplement()%20%7Bfor%20(const%20attribute%20in%20theme)%20%7Bdocument.querySelector(%22%3Aroot%22).style.setProperty(attribute%2C%20theme%5Battribute%5D)%7D%7Dfunction%20jsonGet()%20%7Burl%20%3D%20this.title%3Bfetch(url).then(res%20%3D%3E%20res.json()).then((out)%20%3D%3E%20%7Btheme%20%3D%20out%3BjsonImplement()%3B%7D).catch(err%20%3D%3E%20%7B%20throw%20err%20%7D)%3B%7Dfor%20(i%3D0%3Bi%3CthemeLinks.length%3Bi%2B%2B)%20%7BthemeLinks%5Bi%5D.addEventListener(%22click%22%2C%20jsonGet)%3B%7D%7D)()
+Instructions for bookmarklet use, tutorial for how to set up links yourself, as well as unminifed and explained code will be below the bookmarklets.  
+
+IMPORTER
+
+javascript:let t={},l=document.getElementsByClassName("theme");function m(){for(const e in t)document.querySelector(":root").style.setProperty(e,t[e])}function g(){u=this.title,fetch(u).then(t=>t.json()).then(e=>{t=e,m()}).catch(t=>{throw t})}for(i=0;i<l.length;i++)l[i].addEventListener("click",g);
+
+EXPORTER
+
+javascript:function j(){let e=document.documentElement.style,n={};for(i=0;i<e.length;i++)n[e[i]]=e.getPropertyValue(e[i]);console.log(JSON.stringify(n))};j();
+
+
+HOW TO USE
+Importer: Open a page which has :root css variables and theme links. Run the bookmarklet. Click on a theme
+link. Observe the changes. You can switch between themes as much as you want, but if you refresh or leave the
+page, you will need to run the bookmarklet again to be able to use the theme links, as it is only temporary code. 
+
+Exporter: Open a page which has :root css variables. Open the inspect element menu, make adjustments to the
+root variables to your satisfaction. While still having the elements tab open in the dev menu, run the exporter
+bookmarklet. This should print a JSON style string to the console, which you can upload somewhere which allows CORS.
+Github is such a place.
+
+HOW TO SET UP A THEME LINK
+Upload a JSON file to a file hosting website which allows CORS. Github is one such site. Get the link the
+raw file data, similar to the txt file you are currently viewing. Note that the JSON file contains specifically
+:root css variables, which do not make structural changes to your css, only variable changes such as colors,
+backgrounds, sizes, borders and shadows.
+
+For a tutorial on how to use :root css variables, visit https://www.w3schools.com/css/css3_variables.asp
+
+Implement the following code into a text box which allows for HTML:
+
+<a href="#" title="PUT URL TO HOSTED FILE RAW DATA HERE"> 
+DUMMY DISPLAY TEXT, REPLACE WITH TEXT OF YOUR CHOICE 
+</a>
+
+Optionally, apply a class to the anchor element so it may be targeted by css rules, for custom styling.
+Ex:
+
+<a href="#" title="PUT URL TO HOSTED FILE RAW DATA HERE" class="theme"> 
+DUMMY DISPLAY TEXT, REPLACE WITH TEXT OF YOUR CHOICE 
+</a>
+
+If your file is valid, your file hosting is working properly, your page makes proper use of :root variables, 
+and you replaced the title attribute correctly, then anyone who runs the importer bookmarklet and then clicks 
+on the anchor element will see your hosted theme applied.
+
+
+
+
+UNMINIFIED CODE AND EXPLANATIONS
+
+Unminified Importer script:
+
+// create an object for placing the json file into
+let theme = {};
+
+// get all theme links
+let themeLinks = document.getElementsByClassName("theme");
+
+// define an implementor function which takes every value from the theme object, and then places it into the proper :root variable
+function jsonImplement() {
+    for (const attribute in theme) {
+        document.querySelector(":root").style.setProperty(attribute, theme[attribute])
+    }
+}
+
+/* define a getter function which calls an http request to the link contained in the title attribute of the relevant theme link,
+then place the returned JSON file in object form into the previously defined theme object, and call the implementor function. */
+function jsonGet() {
+url = this.title;
+fetch(url)
+.then(res => res.json())
+.then((out) => {
+  theme = out;
+  jsonImplement();
+})
+.catch(err => { throw err });
+}
+
+// place event listeners on all theme links, so that the getter function is called upon clicking one.
+for (i=0;i<themeLinks.length;i++) {
+    themeLinks[i].addEventListener("click", jsonGet);
+}
+
+
+Unminified exporter script:
+
+// define a function which grabs the current :root css variables, and prints them into the console
+function jsonify() {
+    // get a shortened reference to the :root, and prepare an object to receive variables
+    let style = document.documentElement.style;
+    let styleObject = {};
+    // iterate over root and place every attribute into a corresponding object value
+    for (i=0;i<style.length;i++){
+        styleObject[style[i]] = style.getPropertyValue(style[i]);
+    }
+    // print the object in valid JSON format
+    console.log(JSON.stringify(styleObject));
+};
+// run the function
+jsonify();
+
+If you need further help, feel free to comment about it on my page. I may make a blog about FAQ in the future as well, so keep an eye out for that.
