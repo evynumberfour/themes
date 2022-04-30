@@ -9,6 +9,7 @@
 "--acolor": "black",
 "--ahover": "black",
 "--bcolor": "black",
+"--pcolor": "black",
 "--header": "white",
 "--hsub": "white",
 "--textshadowprimary": "none",
