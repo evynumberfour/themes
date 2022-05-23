@@ -1,6 +1,10 @@
 The following are helpful theme importing and exporting bookmarklets. To use a bookmarklet, select all relevent code (from 'javascript:' to the last semicolon) and drag it to your bookmarks bar. Then, run it on a page with compatible links. 
 
-Instructions for bookmarklet use, tutorial for how to set up links yourself, as well as unminifed and explained code will be below the bookmarklets.  
+Instructions for bookmarklet use, tutorial for how to set up links yourself, as well as unminifed and explained code will be below the bookmarklets. 
+
+(Also, if you are concerned about safety, my code only acquires a JSON file and transfers its data to CSS, never using eval(), 
+which would be necessary for arbitrary code execution, ie. running some malicious js from the json. 
+also like. you can view the files im drawing from, its just css data...)
 
 IMPORTER
 
