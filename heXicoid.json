@@ -1,1 +1,23 @@
- {"--primary":" linear-gradient(180deg, rgb(176 186 198) 0%, rgb(89 87 119) 100%)","--secondary":" #000000a6","--highlight":" #005cd2","--bgSize":" 100% 100%","--bgAnim":" none","--background":" url(https\\:\\/\\/raw\\.githubusercontent\\.com\\/evynumberfour\\/themes\\/main\\/hexicBGanim\\.svg), linear-gradient(180deg, rgba(170,171,189,1) 0%, rgba(22,18,54,1) 80%, rgba(22,18,54,1) 100%) #000","--container":" #18181896","--border":" 5px solid #2e1e49","--hoverborder":" 5px solid#6d6a97","--acolor":" #3a0464","--ahover":" #00ff0f","--bcolor":" #6b607a","--pcolor":" #fff","--themelink":" #19dcde","--header":" linear-gradient(0deg, rgb(160 160 180) 0%, rgb(37 36 62) 90%, rgb(255 255 255) 100%)","--hsub":" rgb(140 140 161)","--textshadowprimary":" -1.3px -1.4px 1px #000000","--textshadowsecondary":" 1px 1px 1px #9845ed","--commentprimary":" #311c4187","--commentsecondary":" #483c7b4f","--commentborder":" solid #1d112878 4px","--country":"'XBOX 360 Live Arcade'", "songName": "Urbex - Underlow", "songURL": "https://cdn.discordapp.com/attachments/661461905419796501/978746880378929202/Underlow.mp3"}
+ {
+  "--primary":" linear-gradient(180deg, rgb(176 186 198) 0%, rgb(89 87 119) 100%)",
+  "--secondary":" #000000a6","--highlight":" #005cd2","--bgSize":" 100% 100%",
+  "--bgAnim":" none",
+  "--background":" url(https\\:\\/\\/raw\\.githubusercontent\\.com\\/evynumberfour\\/themes\\/main\\/hexicBGanim\\.svg), linear-gradient(180deg, rgba(170,171,189,1) 0%, rgba(22,18,54,1) 80%, rgba(22,18,54,1) 100%) #000",
+  "--container":" #18181896",
+  "--border":" 5px solid #2e1e49",
+  "--hoverborder":" 5px solid#6d6a97",
+  "--acolor":" #3a0464",
+  "--ahover":" #00ff0f",
+  "--bcolor":" #6b607a",
+  "--pcolor":" #fff",
+  "--themelink":" #19dcde",
+  "--header":" linear-gradient(0deg, rgb(160 160 180) 0%, rgb(37 36 62) 90%, rgb(255 255 255) 100%)",
+  "--hsub":" rgb(140 140 161)","--textshadowprimary":" -1.3px -1.4px 1px #000000",
+  "--textshadowsecondary":" 1px 1px 1px #9845ed",
+  "--commentprimary":" #383f4e",
+  "--commentsecondary":" #4a4c6e80",
+  "--commentborder":" solid #0b0a2178 4px",
+  "--country":"'XBOX 360 Live Arcade'",
+  "songName": "Urbex - Underlow", 
+  "songURL": "https://cdn.discordapp.com/attachments/661461905419796501/978746880378929202/Underlow.mp3"
+ }
