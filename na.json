@@ -20,6 +20,8 @@
 "--commentsecondary": "white",
 "--commentborder": "black",
 "--country": " ",
+"--image": "url()",
+"--height": "0",
 "songName": "no song",
 "songURL": "/#"
 }
