@@ -8,7 +8,11 @@ also like. you can view the files im drawing from, its just css data...)
 
 IMPORTER
 
-javascript:let t={},l=document.getElementsByClassName("theme");function m(){for(const e in t)document.querySelector(":root").style.setProperty(e,t[e])}function g(){u=this.title,fetch(u).then(t=>t.json()).then(e=>{t=e,m()}).catch(t=>{throw t})}for(i=0;i<l.length;i++)l[i].addEventListener("click",g);
+javascript:let t={},d=document,l=d.getElementsByClassName("theme");function m(){for(const e in t)d.querySelector(":root").style.setProperty(e,t[e])}function g(){u=this.title,fetch(u).then(t=>t.json()).then(e=>{t=e,m()}).catch(t=>{throw t})}for(i=0;i<l.length;i++)l[i].addEventListener("click",g);
+
+optional song-changing version of importer script:
+
+javascript:let t={},d=document,q=d.querySelector.bind(d),l=d.getElementsByClassName("theme");function m(){for(const e in t){q(":root").style.setProperty(e,t[e]);sn=q(".songName a");sn.innerHTML=t.songName;sn.href=t.songURL;q("#songAudio").src=t.songURL}}function g(){u=this.title,fetch(u).then(t=>t.json()).then(e=>{t=e,m()}).catch(t=>{throw t})}for(i=0;i<l.length;i++)l[i].addEventListener("click",g);
 
 EXPORTER
 
@@ -68,6 +72,11 @@ function jsonImplement() {
     for (const attribute in theme) {
         document.querySelector(":root").style.setProperty(attribute, theme[attribute])
     }
+    // optional song-related code
+    songNameElement = document.querySelector(".songName a")
+    songNameElement.innerHTML = theme.songName;
+    songNameElement.href = theme.songURL
+    document.getElementById("songAudio").src = theme.songURL
 }
 
 /* define a getter function which calls an http request to the link contained in the title attribute of the relevant theme link,
