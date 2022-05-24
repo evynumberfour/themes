@@ -3,6 +3,8 @@
 "--secondary": "white",
 "--highlight": "black",
 "--background": "white",
+"--bgSize": "100% 100%", 
+"--bgAnim": "none",
 "--container": "white",
 "--border": "black",
 "--hoverborder": "black",
