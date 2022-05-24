@@ -17,5 +17,7 @@
 "--commentprimary": "white",
 "--commentsecondary": "white",
 "--commentborder": "black",
-"--country": " "
+"--country": " ",
+"songName": "no song",
+"songURL": "/#"
 }
