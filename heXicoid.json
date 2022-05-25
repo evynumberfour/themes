@@ -1,6 +1,6 @@
  {
   "--primary":" linear-gradient(180deg, rgb(176 186 198) 0%, rgb(89 87 119) 100%)",
-  "--secondary":" #000000a6",
+  "--secondary":" #06070ec2",
   "--highlight":" #005cd2",
   "--background":" url(https\\:\\/\\/raw\\.githubusercontent\\.com\\/evynumberfour\\/themes\\/main\\/hexicBGanim\\.svg), linear-gradient(180deg, rgba(170,171,189,1) 0%, rgba(22,18,54,1) 80%, rgba(22,18,54,1) 100%) #000",
    "--bgSize":" 100% 100%",
@@ -10,7 +10,7 @@
   "--hoverborder":" 5px solid#6d6a97",
   "--acolor":" #3a0464",
   "--ahover":" #00ff0f",
-  "--bcolor":" #6b607a",
+  "--bcolor":" #907bac",
   "--pcolor":" #fff",
   "--themelink":" #19dcde",
   "--header":" #18181896",
