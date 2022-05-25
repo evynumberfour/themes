@@ -1,7 +1,8 @@
 <!doctype html>
 <html>
       <style>
-            body, p { margin: 0; padding: 0;}
+            body, p { margin: 0; padding: 0; text-align: center; font-size: 60vh;}
+            p {position: absolute; top: calc(50% - 30vh)}
       </style>
       <a href="javascript:let t={},d=document,q=d.querySelector.bind(d),l=d.getElementsByClassName('theme');function m(){for(const e in t){q(':root').style.setProperty(e,t[e]);sn=q('.songName a');sn.innerHTML=t.songName;sn.href=t.songURL;q('#songAudio').src=t.songURL}}function g(){u=this.title,fetch(u).then(t=>t.json()).then(e=>{t=e,m()}).catch(t=>{throw t})}for(i=0;i<l.length;i++)l[i].addEventListener('click',g);">Importer V2</a> <--Drag to bookmarks bar
 </html>
