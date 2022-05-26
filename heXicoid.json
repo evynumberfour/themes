@@ -23,6 +23,7 @@
   "--country":"'XBOX 360 Live Arcade'",
   "--image": "url(https://cdn.discordapp.com/attachments/817948312388239360/978758329482489896/hexicThemeImage.png)",
   "--height": "640px",
+  "--filter": "none",
   "songName": "Urbex - Underlow", 
   "songURL": "https://cdn.discordapp.com/attachments/661461905419796501/978746880378929202/Underlow.mp3"
  }
