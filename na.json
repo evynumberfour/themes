@@ -22,7 +22,7 @@
 "--country": " ",
 "--image": "url()",
 "--height": "0",
-"--filter": "none";
+"--filter": "none",
 "songName": "no song",
 "songURL": "/#"
 }
