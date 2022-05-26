@@ -23,7 +23,7 @@
   "--country":"'Digital Infinity'",
   "--image":" url(https://cdn.discordapp.com/attachments/661461905419796501/979417726386855987/itsnotlookinggood.png)",
   "--height":" 300px",
-  "--filter":" greyscale(1)",
+  "--filter":" grayscale(1)",
   "songName": "Present Company - It's not looking good",
   "songURL": "https://cdn.discordapp.com/attachments/661461905419796501/979418190268498000/Present_Company_-_Its_Not_Looking_Good_.mp3"
 }
