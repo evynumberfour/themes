@@ -10,6 +10,7 @@
   "--hoverborder":" 3px solid #cfd3e6",
   "--acolor":" #e1e1e1",
   "--ahover":" #bfc2d1",
+  "--avisited":" #bcbab2",
   "--bcolor":" #a9a9a9",
   "--pcolor":" #fff",
   "--themelink":" #ffffff",
