@@ -9,6 +9,7 @@
    "--border":" 3px solid #bc1010",
    "--hoverborder":" 3px solid #ff6c00b0",
    "--acolor":" #fce9a9",
+   "--avisited":" orange",
    "--ahover":" #bfc2d1",
    "--bcolor":" #ed5703",
    "--pcolor":" #f00",
