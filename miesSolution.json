@@ -20,10 +20,10 @@
    "--commentprimary":" #920b0ba8",
    "--commentsecondary":" #55060682",
    "--commentborder":" solid #ff3c1f9e 2px",
-   "--country":" \"The Evening Sky Ablaze\"",
+   "--country":"'The Evening Sky Ablaze'",
    "--image":" url(https\\:\\/\\/cdn\\.discordapp\\.com\\/attachments\\/817948312388239360\\/990045569357586472\\/pyroclastic\\.png)",
    "--height":" 350px",
    "--filter":" sepia(1) brightness(0.7) saturate(8) hue-rotate(-32deg)"
-   "songName": "Boards of Canada - The Beach at Redpoint", 
+   "songName": "'Boards of Canada - The Beach at Redpoint'", 
    "songURL": "https://cdn.discordapp.com/attachments/817948312388239360/990054449449959434/Boards_Of_Canada_-_The_Beach_at_Redpoint.mp3"
 }
