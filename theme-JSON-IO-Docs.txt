@@ -8,11 +8,14 @@ also like. you can view the files im drawing from, its just css data...)
 
 IMPORTER
 
+V1 (no music support):
 javascript:let t={},d=document,l=d.getElementsByClassName("theme");function m(){for(const e in t)d.querySelector(":root").style.setProperty(e,t[e])}function g(){u=this.title,fetch(u).then(t=>t.json()).then(e=>{t=e,m()}).catch(t=>{throw t})}for(i=0;i<l.length;i++)l[i].addEventListener("click",g);
 
-optional song-changing version of importer script:
-
+V2 (single song only support):
 javascript:let t={},d=document,q=d.querySelector.bind(d),l=d.getElementsByClassName("theme");function m(){for(const e in t){q(":root").style.setProperty(e,t[e]);sn=q(".songName a");sn.innerHTML=t.songName;sn.href=t.songURL;q("#songAudio").src=t.songURL}}function g(){u=this.title,fetch(u).then(t=>t.json()).then(e=>{t=e,m()}).catch(t=>{throw t})}for(i=0;i<l.length;i++)l[i].addEventListener("click",g);
+
+V3 (single/multi song + randomizer):
+javascript:d=document;q=d.querySelector.bind(d);l=d.getElementsByClassName('theme');function m(){for(e in t) q(':root').style.setProperty(e, t[e]);r=t.songURL;n=t.songName;if(!Array.isArray(r)){r=new Array(r,'');n=new Array(n,'')}i=~~(Math.random()*r.length);o=q('.songName a');o.innerHTML=n[i];o.href=q('#songAudio').src=r[i]}function g(){u=this.title,fetch(u).then(e=>e.json()).then(e=>{t=e,m()}).catch(e=>{throw e})}for(j=0;j<l.length;j++)l[j].addEventListener('click',g);
 
 EXPORTER
 
@@ -39,13 +42,6 @@ For a tutorial on how to use :root css variables, visit https://www.w3schools.co
 
 Implement the following code into a text box which allows for HTML:
 
-<a href="#" title="PUT URL TO HOSTED FILE RAW DATA HERE"> 
-DUMMY DISPLAY TEXT, REPLACE WITH TEXT OF YOUR CHOICE 
-</a>
-
-Optionally, apply a class to the anchor element so it may be targeted by css rules, for custom styling.
-Ex:
-
 <a href="#" title="PUT URL TO HOSTED FILE RAW DATA HERE" class="theme"> 
 DUMMY DISPLAY TEXT, REPLACE WITH TEXT OF YOUR CHOICE 
 </a>
@@ -59,7 +55,7 @@ on the anchor element will see your hosted theme applied.
 
 UNMINIFIED CODE AND EXPLANATIONS
 
-Unminified Importer script:
+Unminified Importer script: (this is out of date for v3, only applies to v1 and v2. ill get around to updating it...)
 
 // create an object for placing the json file into
 let theme = {};
