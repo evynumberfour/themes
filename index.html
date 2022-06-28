@@ -5,7 +5,7 @@
       </head>
 <body>
       <p>
-            <a href="javascript:let t={},d=document,q=d.querySelector.bind(d),l=d.getElementsByClassName('theme');function m(){for(const e in t){q(':root').style.setProperty(e,t[e]);sn=q('.songName a');sn.innerHTML=t.songName;sn.href=t.songURL;q('#songAudio').src=t.songURL}}function g(){u=this.title,fetch(u).then(t=>t.json()).then(e=>{t=e,m()}).catch(t=>{throw t})}for(i=0;i<l.length;i++)l[i].addEventListener('click',g);">Importer V2</a> ← Drag to bookmarks bar
+            <a href="javascript:d=document;q=d.querySelector.bind(d);l=d.getElementsByClassName('theme');function m(){for(e in t) q(':root').style.setProperty(e, t[e]);r=t.songURL;n=t.songName;if(!Array.isArray(r)){r=new Array(r,'');n=new Array(n,'')}i=~~(Math.random()*r.length);o=q('.songName a');o.innerHTML=n[i];o.href=q('#songAudio').src=r[i]}function g(){u=this.title,fetch(u).then(e=>e.json()).then(e=>{t=e,m()}).catch(e=>{throw e})}for(j=0;j<l.length;j++)l[j].addEventListener('click',g);">Importer V3</a> ← Drag to bookmarks bar
       </p>
 </body>
 </html>
