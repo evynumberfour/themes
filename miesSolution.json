@@ -25,6 +25,6 @@
    "--image":" url(https\\:\\/\\/cdn\\.discordapp\\.com\\/attachments\\/817948312388239360\\/990045569357586472\\/pyroclastic\\.png)",
    "--height":" 350px",
    "--filter":" sepia(1) brightness(0.7) saturate(8) hue-rotate(-32deg)",
-   "songName": ["'pilotredsun - clone wars'","'Cycerin - Vain Star (Edit)'"], 
+   "songName": ["pilotredsun - clone wars","Cycerin - Vain Star (Edit)"], 
    "songURL": ["https://cdn.discordapp.com/attachments/661461905419796501/990063594131562516/Pilotredsun_-_Clone_Wars.mp3","https://cdn.discordapp.com/attachments/661461905419796501/991193183885201458/Vain_Star_Edit_-_Cycerin.mp3"]
 }
