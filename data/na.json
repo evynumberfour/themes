@@ -23,6 +23,6 @@
 "--image": "url()",
 "--height": "0",
 "--filter": "none",
-"songName": "no song",
-"songURL": "/#"
+"songName": ["no song"],
+"songURL": ["/#"]
 }
