@@ -20,9 +20,9 @@
 "--commentprimary": "white",
 "--commentsecondary": "white",
 "--commentborder": "black",
-"--country": " ",
-"--image": "url()",
-"--height": "0",
+"--country": "no theme selected",
+"--image": "url(https://cdn.discordapp.com/attachments/661461905419796501/1025968406236766238/unknown.png)",
+"--height": "300",
 "--filter": "none",
 "songName": ["no song"],
 "songURL": ["/#"]
