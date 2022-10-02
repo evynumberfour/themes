@@ -23,6 +23,6 @@
   "--image": "url(https://cdn.discordapp.com/attachments/661461905419796501/1025828857279946792/pyroclasticDusk.png)",
   "--height": "300px",
   "--filter": "none",
-  "songName": ["Pilotredsun - Unison.mp3"],
-  "songURL": ["https://cdn.discordapp.com/attachments/661461905419796501/978484680145907783/Pilotredsun_-_Unison.mp3"]
+  "songName": ["Pilotredsun - Unison.mp3","Pilotredsun - buildboy","Pilotredsun - rule of xem"],
+  "songURL": ["https://cdn.discordapp.com/attachments/661461905419796501/978484680145907783/Pilotredsun_-_Unison.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1025979049929089097/pilotredsun_-_buildboy.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1025979050260451358/pilotredsun_-_rule_of_xem.mp3"]
 }
