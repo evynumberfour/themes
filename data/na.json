@@ -12,6 +12,7 @@
 "--ahover": "black",
 "--bcolor": "black",
 "--pcolor": "black",
+"--themelink": "black",
 "--header": "white",
 "--hsub": "white",
 "--textshadowprimary": "none",
