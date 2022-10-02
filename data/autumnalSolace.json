@@ -22,7 +22,7 @@
 "--commentborder":" solid #cc903575 2px",
 "--country":"'Autumnal Hearth'",
 "--image": "url(https://cdn.discordapp.com/attachments/661461905419796501/1023271836353577090/unknown.png)",
-"--height": "300",
+"--height": "300px",
 "--filter": "sepia(0.95) brightness(0.7) saturate(7) hue-rotate(-38deg)",
 "songName": ["lambic 9 poetry - squarepusher", "echus - boards of canada", "alberto balsalm - aphex twin"],
 "songURL": ["https://cdn.discordapp.com/attachments/661461905419796501/1023276950300655667/Squarepusher_-_Iambic_9_Poetry.mp3", "https://cdn.discordapp.com/attachments/661461905419796501/1023279853191049318/Boards_of_Canada_-_Echus.mp3", "https://cdn.discordapp.com/attachments/661461905419796501/1023285356189188209/Aphex_Twin_-_Alberto_Balsalm.mp3"]
