@@ -22,7 +22,7 @@
   "--commentborder":" solid #35ccb475 2px",
   "--country":" \"It's all BLEEN !!\"",
   "--image": "url(https://cdn.discordapp.com/attachments/817948312388239360/990441567800152084/waveform-green.gif)",
-  "--height": "300",
+  "--height": "300px",
   "--filter": "sepia(1) brightness(0.8) saturate(3) hue-rotate(93deg)",
   "songName": ["samegrade - pilotredsun"],
   "songURL": ["https://cdn.discordapp.com/attachments/817948312388239360/990442386406658078/pilotredsun_-_samegrade.mp3"]
