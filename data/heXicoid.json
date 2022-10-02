@@ -24,6 +24,6 @@
   "--image": "url(https://cdn.discordapp.com/attachments/817948312388239360/978758329482489896/hexicThemeImage.png)",
   "--height": "640px",
   "--filter": "none",
-  "songName": ["Urbex - Underlow"], 
-  "songURL": ["https://cdn.discordapp.com/attachments/661461905419796501/978746880378929202/Underlow.mp3"]
+  "songName": ["Urbex - Underlow","Urbex - Cobblers","Urbex - Badback","Urbex - Lubax"], 
+  "songURL": ["https://cdn.discordapp.com/attachments/661461905419796501/978746880378929202/Underlow.mp3","https://cdn.discordapp.com/attachments/817948312388239360/978082294378139699/Urbex_-_Hexophilia_-_06_Cobblers.mp3","https://cdn.discordapp.com/attachments/817948312388239360/978082575501369406/Urbex_-_Hexophilia_-_10_Badback.mp3","https://cdn.discordapp.com/attachments/817948312388239360/978083375220936724/Urbex_-_Hexophilia_-_09_Lubax.mp3"]
  }
