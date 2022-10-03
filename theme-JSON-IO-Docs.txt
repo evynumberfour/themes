@@ -1,3 +1,5 @@
+LEGACY DOCUMENTATION (for versions before 4.0)
+
 The following are helpful theme importing and exporting bookmarklets. To use a bookmarklet, select all relevent code (from 'javascript:' to the last semicolon) and drag it to your bookmarks bar. Then, run it on a page with compatible links. 
 
 Instructions for bookmarklet use, tutorial for how to set up links yourself, as well as unminifed and explained code will be below the bookmarklets. 
