@@ -10,20 +10,21 @@ javascript:
 let doc = window.parent.document, // grabs shorthand for parent document NOTE1
     query = doc.querySelector.bind(doc), // shorthand for finding elements by css tags
     domain = 'https://raw.githubusercontent.com/evynumberfour/themes/main/data/', // the domain under which your files are hosted, used to reduce redundant html 
-    themelist = doc.getElementsByClassName('theme'), // get all theme elements
-    properties = ['--border','--hoverborder','--themelink','--textshadowsecondary','--primary']; // list properties to be applied to library item theme element
+    properties = ['--border','--hoverborder','--themelink','--textshadowsecondary','--primary'] // list properties to be applied to library item theme element
+    themeclass = 'theme'; // the css class which all theme link elements share 
     
 function implement(theme) { // self explanatory
 
   let root = query(':root'); 
-  for(property in theme) {root.style.setProperty(property,theme[property]); 
+  for (property in theme) {root.style.setProperty(property,theme[property]); 
   // grab css root and transfer all theme properties onto it
   
   let songArray = theme.songURL; 
   let songNames = theme.songName;
   // store music related properties
   
-  i = ~~(Math.random() * songArray.length); //convert random number within songArray range to integer using two binary NOT operators 
+  i = ~~(Math.random() * songArray.length); 
+  //convert random number within songArray range to integer using two binary NOT operators 
   
   songNameElement=query('.songName a');
   songNameElement.innerHTML=songNames[i];
@@ -46,23 +47,49 @@ function jsonGetter() { // used to communicate with offsite file hosting
 function jsonGetterForLI() {
 
   url = domain + this.title;
-  boundLIimplimentor = LIimplement.bind(this);
-  fetch(url).then(rawfile => rawfile.json()).then(jsonoutput => {boundLIimplementor(jsonoutput, this)}).catch(error => {throw error})
   
+  let boundLIimplimentor = LIimplement.bind(this);
+  // create function with same context of this function, ie the theme link element
+  
+  fetch(url).then(
+    rawfile => rawfile.json();
+  ).then(
+    jsonoutput => {boundLIimplementor(jsonoutput, this)}
+  ).catch(
+    error => {throw error}
+  )
+  // same as normal jsongetter, but doesnt change name of current theme, and feeds json output to other theme-link-element-specific implementor
 }
+
 function LIimplement(theme, libraryItem) {
-  for (i=0; i<properties.length; i++) {
+  for (i = 0; i < properties.length; i++) {
     libraryItem.style.setProperty(properties[i],theme[properties[i]]);
-  }
+  } // apply all specified properties to the theme link element
+  
   libraryItem.querySelector('.themeicon').style.setProperty('background-image',theme['--image'])
+  // set the theme icon
+  
 }
   
-for (i=0; i<l.length; i++) {
-  themelist[i].addEventListener('click',jsonGetter);
-  themelist[i].style.cursor = 'pointer';
-  themelist[i].style.opacity = 1;
-  (y=jsonGetterForLibraryItems.bind(l[j]))();
+let themelist = doc.getElementsByClassName(themeclass); // get all theme elements from set class
+
+for (i = 0; i < l.length; i++) {
+  let themeblock = themelist[i];
+  // grab the current iterated theme link element
+  
+  themeblock.addEventListener('click',jsonGetter);
+  // add event listener to grab its theme and implement it on click
+  
+  themeblock.style.cursor = 'pointer';
+  themeblock.style.opacity = 1;
+  // remove the "disabled" appearance
+  
+  (function() { jsonGetterForLibraryItems.bind(themelist[i]) })();
+  // create an anonymous function bound to the themelink that implements its theme on itself
+  
 }
+
 console.log('running');
+
 ```
 [1]: Also attempts to grab higher window context, but this either defaults to the current window context or is blocked by basic iframe security
