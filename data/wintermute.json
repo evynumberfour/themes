@@ -23,7 +23,7 @@
   "--country":"\"A cold, windy beach\"",
   "--height":"300px",
   "--filter":"sepia(0.95) brightness(2.7) saturate(1.8) hue-rotate(175deg)",
-  "--image":"url(https\\:\\/\\/cdn\\.discordapp\\.com\\/attachments\\/817948312388239360\\/1041064027285098536\\/unknown\\.png)"
+  "--image":"url(https\\:\\/\\/cdn\\.discordapp\\.com\\/attachments\\/817948312388239360\\/1041064027285098536\\/unknown\\.png)",
   "songName": ["Duskt - Taylor Deupree", "Entirely Beloved - _ Boisvert", "Ocean Beyond the Waves - Arisu", "Cold Earth - Boards of Canada", "Tundra - Squarepusher"],
   "songURL": ["https://cdn.discordapp.com/attachments/661461905419796501/1041072341553262682/Duskt_-_Taylor_Deupree.mp3", "https://cdn.discordapp.com/attachments/661461905419796501/1041072339753906228/Entirely_Beloved._-___Boisvert.mp3", "https://cdn.discordapp.com/attachments/661461905419796501/1041072340265599026/Ocean_Beyond_the_Waves_-_Arisu.mp3", "https://cdn.discordapp.com/attachments/661461905419796501/1041072340701819050/Cold_Earth_-_Boards_of_Canada.mp3", "https://cdn.discordapp.com/attachments/661461905419796501/1041072341087682610/Tundra_-_Squarepusher.mp3"]
 }
