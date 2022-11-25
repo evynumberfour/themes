@@ -20,7 +20,7 @@
 "--commentprimary": "#365e7755",
 "--commentsecondary": "#086a9f55",
 "--commentborder": "solid black 2px",
-"--country": "retrofuturism",
+"--country": "'retrofuturism'",
 "--image": "url(https://cdn.discordapp.com/attachments/661461905419796501/1045494620425027675/image.png)",
 "--height": "300px",
 "--filter": "sepia(200%) hue-rotate(160deg) saturate(130%) brightness(105%)",
