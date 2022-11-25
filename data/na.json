@@ -22,7 +22,7 @@
 "--commentborder": "black",
 "--country": "no theme selected",
 "--image": "url(https://cdn.discordapp.com/attachments/661461905419796501/1025968406236766238/unknown.png)",
-"--height": "300",
+"--height": "300px",
 "--filter": "none",
 "songName": ["no song"],
 "songURL": ["/#"]
