@@ -22,7 +22,7 @@
 "--commentborder": "solid black 2px",
 "--country": "retrofuturism",
 "--image": "url(https://cdn.discordapp.com/attachments/661461905419796501/1045494620425027675/image.png)",
-"--height": "300",
+"--height": "300px",
 "--filter": "sepia(200%) hue-rotate(160deg) saturate(130%) brightness(105%)",
 "songName": ["Neil Cicierega - Geocities (Bonus Track)","Zodiac (Eponymous)","Daft Punk - Aerodynamic"],
 "songURL": ["https://cdn.discordapp.com/attachments/661461905419796501/1045491456544079872/Neil_Cicierega_-_Geocities_Bonus_Track.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1045492301541154927/Zodiac_Eponymous.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1045495158277423125/Daft_Punk_-_Aerodynamic.mp3"]
