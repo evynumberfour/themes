@@ -16,7 +16,7 @@
   "--header":" linear-gradient(324deg, rgba(156,156,156,1) 0%, rgba(134,111,80,1) 50%, rgba(168,101,30,1) 100%)",
   "--hsub":" #bf9e52",
   "--textshadowprimary":" 1px 1px 1px #111",
-  "--textshadowsecondary":" 0px 0px 3px #F2C93B",
+  "--textshadowsecondary":" 0px 0px 3px #a7850d",
   "--commentprimary":" #e0cfb388",
   "--commentsecondary":" #c8a08388",
   "--commentborder":" 2px solid black",
