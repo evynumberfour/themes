@@ -12,6 +12,7 @@
   "--ahover":" white",
   "--bcolor":" #666",
   "--pcolor":" #999",
+  "--themelink":"#a15cda",
   "--header":" #2f2f2f88",
   "--hsub":" #3b3b3b55",
   "--textshadowprimary":" 0px 1px 2px #838383",
