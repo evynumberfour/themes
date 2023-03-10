@@ -23,6 +23,7 @@
   "--image":" url(\"https://cdn.discordapp.com/attachments/661461905419796501/1066408709183516712/image.png\")",
   "--height": "300px",
   "--country":" \"Amorphous Grotto\"",
+  "--themename":"'Formless'",
   "--filter":" sepia(1) hue-rotate(-30deg) brightness(0.7) saturate(2.4)",
   "songName": ["Acrylate - Anhedonia","plimplim - soba","plimplim - two","insertaliashere - drowning in slush","N2L Musical Group - No One Needs Chance", "Weighted Coils - Last Forever", "_boisvert - zoning ordinance (extended)"],
   "songURL": ["https://cdn.discordapp.com/attachments/661461905419796501/1066436570514731128/Acrylate_-_Anhedonia.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1066436570112082074/plimplim_-_soba.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1066436569420021910/plimplim_-_two.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1066436569776533587/insertaliashere_-_drowning_in_slush.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1066436569050910730/N2L_Mystical_Music_Group_-_No_One_Needs_Chance.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1066436567834574938/Weighted_Coils_-_Last_Forever.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1066436568274972793/Boisvert_-_zoning_ordinance_extended.mp3"]
