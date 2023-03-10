@@ -22,6 +22,7 @@
   "--commentsecondary":" #32343f26",
   "--commentborder":" solid #ffffff78 2px",
   "--country":"'Digital Infinity'",
+  "--themename":"'Simpler Time'",
   "--image":" url(https://cdn.discordapp.com/attachments/661461905419796501/979417726386855987/itsnotlookinggood.png)",
   "--height":" 300px",
   "--filter":" grayscale(1)",
