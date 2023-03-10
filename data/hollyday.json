@@ -24,6 +24,7 @@
   "--height": "300px",
   "--filter": "sepia(1) brightness(1.2) saturate(10) hue-rotate(162deg)",
   "--country":"'The North Pole'",
+  "--themename":"'Holly Day'",
   "songName": ["pilotredsun - snowday","pilotredsun - polymer","pilotredsun - greetings","pilotredsun - grinch's ultimatum","pilotredsun - untitled (gun shoot + santa)","pilotredsun - cyber-op keys"],
   "songURL": ["https://cdn.discordapp.com/attachments/661461905419796501/1045484791216218172/pilotredsun_-_snowday.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1045484789450416148/pilotredsun_-_polymer.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1045484789077114940/pilotredsun_-_greetings.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1045484788712218705/pilotredsun_-_grinchs_ultimatum.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1045484788418613318/pilotredsun_-_untitled_gun_shoot__santa.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1045484788112425030/pilotredsun_-_cyber-op_keys.mp3"]
 }
