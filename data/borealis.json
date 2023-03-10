@@ -21,8 +21,8 @@
   "--commentprimary":"var(--primary)",
   "--commentsecondary":"var(--secondary)",
   "--commentborder":"var(--border)",
-  "--image":"none",
-  "--height":"0px",
+  "--image":"https://cdn.discordapp.com/attachments/661461905419796501/1083563784720896030/image.png",
+  "--height":"275px",
   "--themelink":"#12e5ff",
   "songName":["Ginchy - Aruarian Dance","Daft Punk - Motherboard","c678924 - backslash"],
   "songURL":["https://cdn.discordapp.com/attachments/661461905419796501/1083562965472649276/Ginchy_-_Aruarian_Dance.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1083550180684611654/Daft_Punk_-_Motherboard.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1083555280543027270/c678924_-_backslash.mp3"]
