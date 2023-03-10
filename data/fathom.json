@@ -21,6 +21,7 @@
   "--filter":" grayscale(100%)",
   "--commentprimary":" var(--primary)",
   "--commentsecondary":" var(--secondary)",
+  "--commentborder":"var(--border)",
   "--height":" 300px",
   "--image":" url(https\\:\\/\\/cdn\\.discordapp\\.com\\/attachments\\/817948312388239360\\/1083548344766431312\\/sol9\\.png)",
   "songName": ["Sol IX - Baphomet","Thief - Apple Eaters"],
