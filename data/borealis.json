@@ -21,7 +21,7 @@
   "--commentprimary":"var(--primary)",
   "--commentsecondary":"var(--secondary)",
   "--commentborder":"var(--border)",
-  "--image":"https://cdn.discordapp.com/attachments/661461905419796501/1083563784720896030/image.png",
+  "--image":"url(https://cdn.discordapp.com/attachments/661461905419796501/1083563784720896030/image.png)",
   "--height":"275px",
   "--themelink":"#12e5ff",
   "songName":["Ginchy - Aruarian Dance","Daft Punk - Motherboard","c678924 - backslash"],
