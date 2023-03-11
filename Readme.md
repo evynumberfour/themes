@@ -148,4 +148,4 @@ themeblock.addEventListener('click', jsonGetter);}
 console.log('running')
 ```
 the above does basically everything v4 for damedanespace does, except without the theme loader library and associated icons.
-i plan on making an upgraded version though, that turns just links (no special html) into something resembling the dame loader. also automatically switching music tracks when the current track finishes, instead of just looping, would be nice
+i plan on making an upgraded version though, that turns just links (no special html) into something resembling the dame library. also automatically switching music tracks when the current track finishes, instead of just looping, would be nice
