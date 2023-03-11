@@ -117,3 +117,35 @@ console.log('running');
 
 ```
 [1]: Also attempts to grab higher window context, but this either defaults to the current window context or is blocked by basic iframe security
+
+### V3 for myspace F46N
+```javascript
+let doc = window.parent.document, 
+    query = doc.querySelector.bind(doc), 
+    domain = 'https://raw.githubusercontent.com/evynumberfour/themes/main/data/';
+
+function implement(theme) { 
+  let root = query(':root');
+  for (property in theme) {root.style.setProperty(property, theme[property])}
+  let songArray = theme.songURL; 
+  let songNames = theme.songName;
+  i = ~~(Math.random() * songArray.length); 
+  songLinkElement=query('.songName a');
+  query('span.song__title').innerHTML=songNames[i];
+  songLinkElement.href = query('.player audio').src = songArray[i]; 
+  query('.player audio').loop = true 
+} 
+
+function jsonGetter() {
+  url = domain + this.title; 
+  fetch(url).then( rawfile => rawfile.json() ).then( jsonoutput => { implement(jsonoutput) } ).catch( error => {throw error});
+  q('#current').innerHTML = this.firstChild.textContent; 
+}
+let themelist = doc.querySelectorAll('blockquote a'); 
+for (i = 0; i < themelist.length; i++) {let themeblock = themelist[i]; 
+themeblock.addEventListener('click', jsonGetter);}
+
+console.log('running')
+```
+the above does basically everything v4 for damedanespace does, except without the theme loader library and associated icons.
+i plan on making an upgraded version though, that turns just links (no special html) into something resembling the dame loader. also automatically switching music tracks when the current track finishes, instead of just looping, would be nice
