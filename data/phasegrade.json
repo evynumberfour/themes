@@ -25,6 +25,6 @@
   "--image": "url(https://cdn.discordapp.com/attachments/817948312388239360/990441567800152084/waveform-green.gif)",
   "--height": "300px",
   "--filter": "sepia(1) brightness(0.8) saturate(3) hue-rotate(93deg)",
-  "songName": ["samegrade - pilotredsun","firebeetle - pilotredsun"],
-  "songURL": ["https://cdn.discordapp.com/attachments/661461905419796501/1025970509814444112/pilotredsun_-_samegrade_fixed.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1025979049568383046/pilotredsun_-_firebeetle.mp3"]
+  "songName": ["samegrade - pilotredsun","firebeetle - pilotredsun","The Scrype of the Dead - Jonah Senzel"],
+  "songURL": ["https://cdn.discordapp.com/attachments/661461905419796501/1025970509814444112/pilotredsun_-_samegrade_fixed.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1025979049568383046/pilotredsun_-_firebeetle.mp3","https://cdn.discordapp.com/attachments/661461905419796501/1117277431221456947/The_Scrybe_of_the_Dead_-_Jonah_Senzel.mp3"]
 }
